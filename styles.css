@@ -34,16 +34,43 @@ ul
 a
 {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #929497;
     font-size: 18px;
+}
+
+h1
+{
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+p
+{
+    color: #929497;
 }
 
 .content
 {
-    background-color: white;
-    
+    display: flex;
+    padding: 60px 0px;
+    /* background-color: white; */
 }
 
+img
+{
+    width: 300px;
+    /* height: 200px; */
+}
+
+button
+{
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 20px;     
+    
+}
 
 .footer
 {
@@ -51,5 +78,8 @@ a
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    color: #E5E7EB;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
