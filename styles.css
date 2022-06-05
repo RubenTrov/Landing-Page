@@ -135,12 +135,18 @@ cite
 
 .action_container
 {
-    display: flex;
     border-radius: 20px;
     margin: 0 12%;
     min-height: 100px;
     padding: 0 50px 0 50px;
     background-color: #3882F6;
+}
+
+.actionsign
+{
+    border: 10px;
+    border-color: aliceblue;
+    padding:10px;
 }
 
 .footer
