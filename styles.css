@@ -98,14 +98,36 @@ h2
     text-align: center;
 }
 
-
-
-
 .article img
 {
     width: 150px;
     height: 150px;
     border-radius: 12px;
+}
+
+cite
+{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 12% 40px 12%;
+    margin: 0;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.Author
+{
+    display: flex;
+    
+}
+
+.action
+{
+    padding: 0 12%;
+    background-color: white;
+    display: flex;
 }
 
 
